@@ -9,4 +9,4 @@ jobs:
       - shell: python  # シェルにPythonを指定
         run: |
           import os
-          print(os.environ['PATH'])
+          print("python:" + os.environ['PATH'])
